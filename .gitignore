@@ -1,0 +1,40 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+*credentials*.json
+*secret*.json
+*.credential*.json
+*.token*.json
+*.private.json
+*.local.json
+config.json
+config.*.json
+*config.local.json
+local_settings.json
+*.credentials
+*.secret
+
+# Local Python environments and generated files
+venv/
+env/
+.venv/
+.python-version.local
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local bot state and databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
